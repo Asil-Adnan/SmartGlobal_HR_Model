@@ -1,0 +1,21 @@
+{
+  "name": "smart-global-hr",
+  "version": "1.0.0",
+  "description": "Scalable Candidate / Employee Data Model",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "ts-node src/seed.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0"
+  }
+}
